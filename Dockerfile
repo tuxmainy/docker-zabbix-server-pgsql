@@ -1,4 +1,4 @@
-FROM zabbix/zabbix-server-pgsql:ubuntu-5.0-latest
+FROM zabbix/zabbix-server-pgsql:ubuntu-5.4-latest
 
 USER root
 RUN set -eux && \
